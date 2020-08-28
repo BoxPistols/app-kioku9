@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css?family=Rajdhani|Sawarabi+Mincho&display=swap");
+.head_contents {
+  display: flex;
+  align-items: center;
+  margin: 12px 16px 12px 0;
+}
+.head_contents svg {
+  border: 1px solid rgba(249, 38, 114, 0.7);
+  border-radius: 0 12px 0 12px;
+  height: 48px;
+  width: 48px;
+  padding: 4px;
+  background: rgba(249, 38, 114, 0.8);
+}
+
+h1 {
+  font-size: 2.4em;
+  margin: 12px 0 8px 16px;
+  line-height: 1;
+  text-shadow: 0px 0px 3px #fff;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.trg {
+  display: flex;
+  margin-left: auto;
+  margin-right: -20px;
+  height: auto;
+}
+.trg > div {
+  margin: 0 4px;
+  padding: 4px 12px;
+  border: 1px solid #66d9ef;
+  cursor: pointer;
+  color: #66d9ef;
+  transition: 0.3s;
+}
+.trg > div:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.org_text {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: scroll;
+  justify-content: start;
+  background: #111;
+  box-shadow: 0px 0px 4px #fff;
+  border-radius: 4px;
+  padding: 12px;
+}
+.org_text .mol_text {
+  background: #222;
+  border-radius: 6px;
+  border: 1px solid #999;
+  padding: 8px 12px 0;
+  width: calc(100% / 3 - 20px);
+  margin: 8px;
+  box-shadow: 0px 0px 3px #f3f3f3;
+  opacity: 0.87;
+}
+.org_text .mol_text h3 {
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+  text-shadow: 0px 0px 3px rgba(255, 220, 220, 0.72);
+  font-family: "Rajdhani", sans-serif;
+  color: #f92672;
+}
+.org_text .mol_text textarea {
+  margin: 4px auto;
+  font-size: 0.85em;
+  min-height: 180px;
+  color: #f92672;
+  text-align: justify;
+  background: #111;
+  text-shadow: 0px 0px 6px rgba(250, 250, 250, 0.4);
+  font-family: "Sawarabi Mincho", sans-serif;
+  transition: 0.3s;
+}
+.org_text .mol_text textarea.small {
+  min-height: 90px;
+  transition: 0.3s;
+}
+.org_text .mol_text input[type='button'] {
+  background: #222;
+  border-color: #f92672;
+  color: #f92672;
+}
+.org_text .mol_text input.clear {
+  transition: 0.3s;
+}
+.org_text .mol_text input.clear:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.org_text .mol_text input.clear.small {
+  height: 24px;
+  font-size: 14px;
+  padding: 4px 8px;
+  line-height: 1;
+  font-weight: normal;
+  float: right;
+  transition: 0.3s;
+}
+.org_text .mol_text:nth-child(2) h3, .org_text .mol_text:nth-child(2) textarea, .org_text .mol_text:nth-child(2) input[type='button'] {
+  color: #a6e22e;
+}
+.org_text .mol_text:nth-child(2) input[type='button'] {
+  border-color: #a6e22e;
+}
+.org_text .mol_text:nth-child(3) h3, .org_text .mol_text:nth-child(3) textarea, .org_text .mol_text:nth-child(3) input[type='button'] {
+  color: #fd971f;
+}
+.org_text .mol_text:nth-child(3) input[type='button'] {
+  border-color: #fd971f;
+}
+.org_text .mol_text:nth-child(4) h3, .org_text .mol_text:nth-child(4) textarea, .org_text .mol_text:nth-child(4) input[type='button'] {
+  color: #66d9ef;
+}
+.org_text .mol_text:nth-child(4) input[type='button'] {
+  border-color: #66d9ef;
+}
+.org_text .mol_text:nth-child(5) h3, .org_text .mol_text:nth-child(5) textarea, .org_text .mol_text:nth-child(5) input[type='button'] {
+  color: #ae81ff;
+}
+.org_text .mol_text:nth-child(5) input[type='button'] {
+  border-color: #ae81ff;
+}
+.org_text .mol_text:nth-child(6) h3, .org_text .mol_text:nth-child(6) textarea, .org_text .mol_text:nth-child(6) input[type='button'] {
+  color: #e6db74;
+}
+.org_text .mol_text:nth-child(6) input[type='button'] {
+  border-color: #e6db74;
+}
+.org_text .mol_text:nth-child(7) h3, .org_text .mol_text:nth-child(7) textarea, .org_text .mol_text:nth-child(7) input[type='button'] {
+  color: lightgreen;
+}
+.org_text .mol_text:nth-child(7) input[type='button'] {
+  border-color: lightgreen;
+}
+.org_text .mol_text:nth-child(8) h3, .org_text .mol_text:nth-child(8) textarea, .org_text .mol_text:nth-child(8) input[type='button'] {
+  color: lightblue;
+}
+.org_text .mol_text:nth-child(8) input[type='button'] {
+  border-color: lightblue;
+}
+.org_text .mol_text:nth-child(9) h3, .org_text .mol_text:nth-child(9) textarea, .org_text .mol_text:nth-child(9) input[type='button'] {
+  color: pink;
+}
+.org_text .mol_text:nth-child(9) input[type='button'] {
+  border-color: pink;
+}
+
+@media only screen and (max-width: 640px) {
+  .org_text {
+    flex-wrap: wrap;
+  }
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}
+
+.run {
+  position: absolute;
+  top: 36px;
+  left: 330px;
+  text-shadow: 0px 0px 6px rgba(250, 250, 250, 0.9);
+  z-inde: 10;
+}
+
+.run_bottom {
+  position: absolute;
+  bottom: 50%;
+  left: -10px;
+  text-shadow: 0px 0px 6px rgba(250, 250, 250, 0.9);
+  transform: rotate(-90deg);
+}
+
+.lay_Monokai {
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+}
+.lay_Monokai h2 {
+  width: 100%;
+}
+.lay_Monokai code {
+  margin: 5px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body {
+  background: #272822;
+  color: #66d9ef;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
